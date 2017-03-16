@@ -4,13 +4,13 @@ The project code implements the Bron–Kerbosch algorithm for finding maximal cl
 
 ![Title animated image](readme_img/title.gif)
 
-The algorithm uses branch and bound approach for efficient maximal cliques finding. For details see original [publication](http://dl.acm.org/citation.cfm?doid=362342.362367) by Bron C., Kerbosh J. . Visualisation was realized with the GLFW library.
+The algorithm uses branch and bound approach for efficient maximal cliques finding. For details see original [publication](http://dl.acm.org/citation.cfm?doid=362342.362367) by Bron C., Kerbosh J. (1973). Visualisation was realized with the GLFW library.
 
 ## Content of this repo
 
 - `scr/test/main.c` code for testing without visualisation
 - `scr/vis/main.cpp` final project code
-- `examples` directory with sample graphs for quick testing
+- `examples` directory with sample input files graphs for quick testing
 - `clique.exe` precompiled project code.
 
 ## How to run the code
@@ -58,7 +58,7 @@ Full connected group:
 Total 2 groups with 5 vertices.
 ```
 
-Pres the *Enter* button to see results visualisation and *Escape* to close the program.
+Press *Enter* button to see results visualisation (or to switch between maximal cliques if there is more then one solutio) and *Escape* to close the program.
 
 ![Clique 1](readme_img/2.png)
 ![Clique 2](readme_img/3.png)
