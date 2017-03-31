@@ -6,6 +6,8 @@ The project code implements the Bron–Kerbosch algorithm for finding maximal cl
 
 The algorithm uses branch and bound approach for efficient maximal cliques finding. For details see original [publication](http://dl.acm.org/citation.cfm?doid=362342.362367) by Bron C., Kerbosh J. (1973). Visualisation was realized with the GLFW library.
 
+*Originally, the project was developed in Dec 2014.*
+
 ## Content of this repo
 
 - `scr/test/main.c` code for testing without visualisation
